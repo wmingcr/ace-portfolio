@@ -7,16 +7,14 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Paul Hanna</h2>
+            <h2>Heyao Liu</h2>
             <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+              src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/131744810_217557026490591_8329519444058341009_n.jpg?_nc_cat=104&ccb=2&_nc_sid=09cbfe&_nc_ohc=3FiajJF22SwAX8yjgew&_nc_ht=scontent-sjc3-1.xx&oh=32e848aba7b77eb50fc8df4f435095b5&oe=60006BC6"
               alt="avatar"
               style={{height: '255px'}}
             />
             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
-              Zion Williamson (No. 42) and Ja Morant (No. 93) were the only rookies to make 
-              the top 100 of 2019's NBArank, which predicts the best players for the upcoming campaign. 
-              The year before, Luka Doncic was the lone first-year player on the list.
+              {/**/`Feel free to contact me by any ways`}
             </p>
           </Cell>
           <Cell col={6}>
@@ -27,28 +25,28 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                    (614) 218-5931
+                    (408) 759-0175
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-fax" aria-hidden="true"/>
-                    (614) 218-5931
+                    (408) 759-0175
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
-                    wang.ming1@northeastern.edu
+                    liu.heyao@northeastern.edu
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-skype" aria-hidden="true"/>
-                    My Skype ID
+                    <i className="fa fa-wechat" aria-hidden="true"/>
+                    4087590175
                   </ListItemContent>
                 </ListItem>
               </List>
